@@ -6,6 +6,6 @@ if (!function_exists('upperCaseSplit')) {
         if (count($strArr) <= 1) {
             return $des;
         }
-        return strtolower(implode($strArr, $delimiter));
+        return strtolower(implode($delimiter, $strArr));
     }
 }
